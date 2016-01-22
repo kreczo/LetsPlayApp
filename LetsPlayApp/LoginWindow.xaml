@@ -1,0 +1,17 @@
+﻿<Window x:Class="LetsPlayApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LetsPlayApp"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="350" Width="525">
+    <Grid Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="35" Margin="220,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <Label x:Name="Login" Content="Login"  HorizontalAlignment="Left" Margin="81,109,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+        <Label x:Name="Password" Content="Password"  HorizontalAlignment="Left" Margin="81,149,0,0" VerticalAlignment="Top" Width="120" FontWeight="Bold"/>
+        <Button x:Name="button" Content="LogIn" HorizontalAlignment="Left" Margin="223,220,0,0" VerticalAlignment="Top" Width="80" FontWeight="Bold"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="35" Margin="220,140,0,0" VerticalAlignment="Top" Width="200"/>
+    </Grid>
+
+</Window>

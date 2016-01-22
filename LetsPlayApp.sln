@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsPlayApp", "LetsPlayApp\LetsPlayApp.csproj", "{2AED15A9-9FB5-4809-A19D-FD799ABD4CF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsPlayLibrary", "LetsPlayLibrary\LetsPlayLibrary.csproj", "{93452024-5CC7-4AC5-B5E3-6F2FAFD8F2B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AED15A9-9FB5-4809-A19D-FD799ABD4CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AED15A9-9FB5-4809-A19D-FD799ABD4CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AED15A9-9FB5-4809-A19D-FD799ABD4CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AED15A9-9FB5-4809-A19D-FD799ABD4CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93452024-5CC7-4AC5-B5E3-6F2FAFD8F2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93452024-5CC7-4AC5-B5E3-6F2FAFD8F2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93452024-5CC7-4AC5-B5E3-6F2FAFD8F2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93452024-5CC7-4AC5-B5E3-6F2FAFD8F2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
